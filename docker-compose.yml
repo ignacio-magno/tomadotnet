@@ -1,0 +1,8 @@
+﻿services:
+  webapplication1:
+    image: webapplication1
+    build:
+      context: .
+      dockerfile: WebApplication1/Dockerfile
+    ports:
+      - "7000:8080"
