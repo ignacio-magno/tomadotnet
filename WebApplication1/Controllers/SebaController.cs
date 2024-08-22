@@ -9,6 +9,6 @@ public class SebaController : ControllerBase
     [HttpGet("Ping")]
     public string Ping()
     {
-        return "Pong";
+        return "Pong de dotnet.";
     }
 }
